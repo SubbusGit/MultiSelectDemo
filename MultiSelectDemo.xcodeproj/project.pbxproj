@@ -15,6 +15,9 @@
 		4921C2FB217E3FA400C3222E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4921C2F9217E3FA400C3222E /* LaunchScreen.storyboard */; };
 		4921C306217E3FA400C3222E /* MultiSelectDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4921C305217E3FA400C3222E /* MultiSelectDemoTests.swift */; };
 		4921C311217E3FA400C3222E /* MultiSelectDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4921C310217E3FA400C3222E /* MultiSelectDemoUITests.swift */; };
+		4921C31F217E412A00C3222E /* DemoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4921C31E217E412A00C3222E /* DemoCollectionViewCell.swift */; };
+		4921C322217EAC1A00C3222E /* checkSelect.png in Resources */ = {isa = PBXBuildFile; fileRef = 4921C320217EAC1A00C3222E /* checkSelect.png */; };
+		4921C323217EAC1A00C3222E /* checkUnselect.png in Resources */ = {isa = PBXBuildFile; fileRef = 4921C321217EAC1A00C3222E /* checkUnselect.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		4921C30C217E3FA400C3222E /* MultiSelectDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiSelectDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4921C310217E3FA400C3222E /* MultiSelectDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiSelectDemoUITests.swift; sourceTree = "<group>"; };
 		4921C312217E3FA400C3222E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4921C31E217E412A00C3222E /* DemoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoCollectionViewCell.swift; sourceTree = "<group>"; };
+		4921C320217EAC1A00C3222E /* checkSelect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkSelect.png; sourceTree = "<group>"; };
+		4921C321217EAC1A00C3222E /* checkUnselect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkUnselect.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,8 @@
 		4921C2EC217E3FA200C3222E /* MultiSelectDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4921C320217EAC1A00C3222E /* checkSelect.png */,
+				4921C321217EAC1A00C3222E /* checkUnselect.png */,
 				4921C2ED217E3FA200C3222E /* AppDelegate.swift */,
 				4921C2EF217E3FA200C3222E /* ViewController.swift */,
 				4921C2F1217E3FA200C3222E /* Main.storyboard */,
@@ -106,6 +114,7 @@
 				4921C2F9217E3FA400C3222E /* LaunchScreen.storyboard */,
 				4921C2FC217E3FA400C3222E /* Info.plist */,
 				4921C2F4217E3FA200C3222E /* MultiSelectDemo.xcdatamodeld */,
+				4921C31E217E412A00C3222E /* DemoCollectionViewCell.swift */,
 			);
 			path = MultiSelectDemo;
 			sourceTree = "<group>";
@@ -232,6 +241,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4921C323217EAC1A00C3222E /* checkUnselect.png in Resources */,
+				4921C322217EAC1A00C3222E /* checkSelect.png in Resources */,
 				4921C2FB217E3FA400C3222E /* LaunchScreen.storyboard in Resources */,
 				4921C2F8217E3FA300C3222E /* Assets.xcassets in Resources */,
 				4921C2F3217E3FA200C3222E /* Main.storyboard in Resources */,
@@ -262,6 +273,7 @@
 				4921C2F0217E3FA200C3222E /* ViewController.swift in Sources */,
 				4921C2F6217E3FA200C3222E /* MultiSelectDemo.xcdatamodeld in Sources */,
 				4921C2EE217E3FA200C3222E /* AppDelegate.swift in Sources */,
+				4921C31F217E412A00C3222E /* DemoCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
